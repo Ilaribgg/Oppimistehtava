@@ -1,0 +1,16 @@
+package database.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import database.ChinookDatabase;
+import model.Album;
+import model.Artist;
+
+public class AlbumDao {
+    private ChinookDatabase db = new ChinookDatabase();
+
+    public List<Album> getAlbumsByArtist(Artist artist) {
+        return new ArrayList<Album>();
+    }
+}

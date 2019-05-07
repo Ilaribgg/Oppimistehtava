@@ -1,0 +1,14 @@
+package database.dao;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AlbumDaoTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
